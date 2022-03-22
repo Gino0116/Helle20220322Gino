@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         txv.text = "Hello Gino"
         TestMaster()
         TestDEV()
+        txv.text = "嗨，我是Gino"
     }
     fun TestDEV(){
         var txv:TextView = findViewById<TextView>(R.id.txv)
